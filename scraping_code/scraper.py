@@ -134,8 +134,6 @@ def scrape_keyword_from_reddit(keywords_list):
         post_list = []
         comment_list = []
 
-
-
         for k, v in result.items():
             comment[k] = v[7]
 
